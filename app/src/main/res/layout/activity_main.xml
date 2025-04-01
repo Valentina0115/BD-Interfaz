@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FCE4EC"
+    tools:context=".controller.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro de Ciudades y Departamentos"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#880E4F"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registra la Ciudad"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#880E4F"
+        android:layout_marginTop="19dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etCodigoCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código de la Ciudad"
+        android:background="@android:drawable/editbox_background"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etNombreCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la Ciudad"
+        android:background="@android:drawable/editbox_background"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registra el Apartamento"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#880E4F"
+        android:layout_marginTop="19dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/etCodigoDepto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código del Departamento"
+        android:background="@android:drawable/editbox_background"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/etNombreDepto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Departamento"
+        android:background="@android:drawable/editbox_background"
+        android:padding="10dp"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    >
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="#F48FB1"
+        android:text="Guardar"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnVerLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#CE93D8"
+        android:text="Ver Lista"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
